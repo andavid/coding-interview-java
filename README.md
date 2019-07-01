@@ -6,4 +6,5 @@
 * [面试题 2：实现 Singleton 模式](https://github.com/andavid/coding-interview-java/tree/master/src/_02)
 * [面试题 3：数组中重复的数](https://github.com/andavid/coding-interview-java/tree/master/src/_03)
 * [面试题 6：从尾到头打印链表](https://github.com/andavid/coding-interview-java/tree/master/src/_06)
+* [面试题 18：删除链表的节点](https://github.com/andavid/coding-interview-java/tree/master/src/_18)
 * [面试题 50：第一个只出现一次的字符](https://github.com/andavid/coding-interview-java/tree/master/src/_50)
