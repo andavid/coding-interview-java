@@ -77,8 +77,14 @@ public class BinaryTree {
     node2.left = node4;
     node2.right = node5;
 
-    System.out.println(preorderIteratively(node1));
-    System.out.println(inorderIteratively(node1));
-    System.out.println(postorderIteratively(node1));
+    //            1
+    //          /   \
+    //         2     3
+    //        / \
+    //       4   5
+
+    System.out.println(preorderIteratively(node1)); // 1,2,4,5,3
+    System.out.println(inorderIteratively(node1));  // 4,2,5,1,3
+    System.out.println(postorderIteratively(node1));// 4,5,2,3,1
   }
 }
