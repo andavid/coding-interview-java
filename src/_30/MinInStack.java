@@ -2,7 +2,7 @@ package _30;
 
 import java.util.Stack;
 
-public class StackWithMin {
+public class MinInStack {
   static class MinStack {
     private int min;
     private Stack<Integer> stack;

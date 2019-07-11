@@ -2,7 +2,7 @@ package _52;
 
 import structure.ListNode;
 
-public class CommonNodesInLists {
+public class FirstCommonNodesInLists {
   public static ListNode<Integer> findFirstCommonNode(ListNode<Integer> head1, ListNode<Integer> head2) {
     ListNode<Integer> node1 = head1;
     ListNode<Integer> node2 = head2;

@@ -3,12 +3,12 @@ package _50;
 import java.util.LinkedList;
 import java.util.Queue;
 
-public class FirstNotRepeatingCharInStream {
+public class FirstCharacterInStream {
 
   private Queue<Character> queue;
   public static final char DEFAULT_CHAR = '?';
 
-  public FirstNotRepeatingCharInStream() {
+  public FirstCharacterInStream() {
     queue = new LinkedList<>();
   }
 
@@ -31,7 +31,7 @@ public class FirstNotRepeatingCharInStream {
   }
 
   public static void main(String[] args) {
-    FirstNotRepeatingCharInStream instance = new FirstNotRepeatingCharInStream();
+    FirstCharacterInStream instance = new FirstCharacterInStream();
     String str = "google";
     for (char ch : str.toCharArray()) {
       instance.insert(ch);

@@ -1,6 +1,6 @@
 package _56;
 
-public class NumberAppearOnce {
+public class NumbersAppearOnce {
 
   /**
    * 一个整数数组里除了两个数字出现一次，其他数字都出现两次。
