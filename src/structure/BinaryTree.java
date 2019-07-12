@@ -1,7 +1,9 @@
 package structure;
 
 import java.util.ArrayList;
+import java.util.LinkedList;
 import java.util.List;
+import java.util.Queue;
 import java.util.Stack;
 
 public class BinaryTree {
@@ -66,6 +68,29 @@ public class BinaryTree {
     return list;
   }
 
+  public static List<Integer> levelOrder(TreeNode root) {
+    List<Integer> list = new ArrayList<>();
+    if (root == null) {
+      return list;
+    }
+
+    Queue<TreeNode> queue = new LinkedList<>();
+    queue.offer(root);
+
+    while (!queue.isEmpty()) {
+      TreeNode node = queue.poll();
+      list.add(node.val);
+      if (node.left != null) {
+        queue.offer(node.left);
+      }
+      if (node.right != null) {
+        queue.offer(node.right);
+      }
+    }
+
+    return list;
+  }
+
   public static void main(String[] args) {
     TreeNode node1 = new TreeNode(1);
     TreeNode node2 = new TreeNode(2);
@@ -86,5 +111,7 @@ public class BinaryTree {
     System.out.println(preorderIteratively(node1)); // 1,2,4,5,3
     System.out.println(inorderIteratively(node1));  // 4,2,5,1,3
     System.out.println(postorderIteratively(node1));// 4,5,2,3,1
+    System.out.println(levelOrder(node1)); // 1,2,3,4,5
+    System.out.println(node1); // 1,2,3,4,5
   }
 }
