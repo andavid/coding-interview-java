@@ -1,6 +1,6 @@
 package _42;
 
-public class GreatestSumOfSubarrays {
+public class GreatestSumOfSubArrays {
   /**
    * 数组中一个或连续多个整数组成一个子数组。求所有子数组的和的最大值。
    *
