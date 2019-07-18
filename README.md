@@ -17,7 +17,7 @@
 * [面试题 7：重建二叉树](./src/_07/ConstructBinaryTree.java)
 * [面试题 8：二叉树的下一个结点](./src/_08/NextNodeInBinaryTrees.java)
 * [面试题 9：用两个栈实现队列](./src/_09/QueueWithTwoStacks.java)
-* 面试题 10：斐波那契数列
+* [面试题 10：斐波那契数列](./src/_10/Fibonacci.java)
 * [面试题 11：旋转数组的最小数字](./src/_11/MinNumberInRotatedArray.java)
 * 面试题 12：矩阵中的路径
 * 面试题 13：机器人的运动范围
